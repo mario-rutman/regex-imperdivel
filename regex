@@ -1,0 +1,112 @@
+# Samuel Macedo fez um vídeo imperdível sobre Regex (https://youtu.be/5Tvrq9G2t68)
+
+# Interpretei e adaptei ao meu gosto, e fiz o script abaixo.
+
+# Vá em new file >>> edit >>> find... (Ctrl+f) >>> marcar Regex e Match case
+
+###########################################################
+###########################################################
+
+. acha tudo que (atq) é qualquer coisa
+
+\. atq é ponto
+
+a. atq é a com qualquer coisa depois, mas só a primeira coisa
+
+a.. atq vem depois de a e depois disso
+
+\s atq é espaço
+
+\S atq não é espaço (a letra maiúscula faz o contrário do que faz a minúscula)
+
+\w atq é word, alfanumérico
+
+\W atq não é word
+
+\d atq é dígito
+
+\D atq não é dígito
+
+[iu]t atq é 'it' ou 'ut'
+
+[iu]t\w atq é 'it' ou 'ut' seguido de word, alfanumérico
+
+[a-z,A-Z] atq é letra minúscula e maiúscula que está no intervalo de a até z
+
+[5-9] atq é algarismo de 5 até 9
+
+[1-5d-h] atq é algarismo de 1 a 5 ou o que é letra entre d e h
+
+\[ atq é [
+
+a{2} atq é aa
+
+n{4} atq é nnnn
+
+an{3} atq é a seguido de 3 n (annn)
+
+v{2,4} atq é vv, vvv ou vvvv.
+
+^ma atq começa com ma
+
+ma$ atq termina com ma
+
+[^i]n atq não começa com i e é seguido de n
+
+[^ia]n atq não começa com i nem a e é seguido de n
+
+r.*t atq vai de um r até um t
+
+ma.*$ atq começa com ma e vai até o fim da string
+
+.*ma acha qqc até ma
+
+n+23 atq tenha pelo menos 1 n e depois 23
+
+o\s?rut atq começa com o e depois tenha espaço ou não e termine com rut
+
+p(a|i|o)t(a|o|e) atq começa com p depois vem a,i ou o; depois t; depois a, o ou e
+
+(?<=o)(.*)(?=ru) atq vem depois de o e antes de ru
+
+
+#########################################################
+#########################################################
+
+mario rutman23
+
+MARIO RUTMAN
+
+maaammario rutumannnnnnn23
+
+mariorutman1959
+
+marrut@gmail.comma
+
+pata
+pito
+pote
+
+Ivo viu a uva.
+
+R version 4.1.2 (2021-11-01) -- "Bird Hippie"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+O Instituto Nacional do Seguro Social (INSS) começou a pagar nesta segunda-feira (25/4) o décimo terceiro salário a cerca de 30 milhões de aposentados e pensionistas no Brasil.
+
+Tipicamente esse pagamento era feito em duas parcelas, geralmente em agosto e em novembro. Nos últimos anos, no entanto, o governo federal antecipou o pagamento como parte de um programa chamado Renda e Oportunidade, cujo objetivo é estimular a economia. O governo prevê uma injeção de R$ 56 bilhões na economia.
+
+
